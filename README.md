@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="client/public/morpho-logo.png" alt="Morpho Logo" width="280"/>
+</p>
+
+<h1 align="center">Morpho</h1>
+
+<p align="center">
+  A web application for file and VAT conversion. Clean. Fast. Modular.
+</p>
+
 # Morpho
 
 **Morpho** is an all-in-one web application that simplifies a wide variety of conversions — from file formats like JPEG ↔ PNG to financial transformations such as VAT value conversions. Designed with modularity and performance in mind, Morpho helps users convert content with speed and accuracy.
@@ -23,15 +33,6 @@
 | Styling    | Tailwind CSS / CSS Modules |
 
 ---
-<p align="center">
-  <img src="client/public/morpho-logo.png" alt="Morpho Logo" width="180"/>
-</p>
-
-<h1 align="center">Morpho</h1>
-
-<p align="center">
-  A web application for file and VAT conversion. Clean. Fast. Modular.
-</p>
 
 ## 📦 Installation
 
