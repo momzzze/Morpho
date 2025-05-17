@@ -23,6 +23,15 @@
 | Styling    | Tailwind CSS / CSS Modules |
 
 ---
+<p align="center">
+  <img src="client/public/morpho-logo.png" alt="Morpho Logo" width="180"/>
+</p>
+
+<h1 align="center">Morpho</h1>
+
+<p align="center">
+  A web application for file and VAT conversion. Clean. Fast. Modular.
+</p>
 
 ## 📦 Installation
 
