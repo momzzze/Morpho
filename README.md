@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="client/public/morpho-logo.png" alt="Morpho Logo" width="280"/>
+  <img src="morpho-client/public/morpho-logo.png" alt="Morpho Logo" width="280"/>
 </p>
 
 <h1 align="center">Morpho</h1>
@@ -25,12 +25,12 @@
 
 ## 🛠 Tech Stack
 
-| Layer      | Technology       |
-|------------|------------------|
-| Frontend   | React 19         |
-| Backend    | Node.js + Express |
-| Database   | PostgreSQL       |
-| Styling    | Tailwind CSS / CSS Modules |
+| Layer    | Technology                 |
+| -------- | -------------------------- |
+| Frontend | React 19                   |
+| Backend  | Node.js + Express          |
+| Database | PostgreSQL                 |
+| Styling  | Tailwind CSS / CSS Modules |
 
 ---
 
@@ -40,3 +40,4 @@
 git clone https://github.com/your-username/Morpho.git
 cd Morpho
 npm install
+```
