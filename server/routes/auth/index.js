@@ -1,8 +1,10 @@
-const router = require('express').Router();
+const {
+  registerUser,
+  loginUser,
+} = require('../../controllers/authController/index');
 
-router.post('/login', (req, res) => {
-  // TODO: Add real authentication logic
-  res.json({ message: `Logged in as ${username}` });
-});
+const router = require('express').Router();
+router.post('/login', loginUser);
+router.post('/register', registerUser);
 
 module.exports = router;

@@ -1,4 +1,7 @@
+const { PrismaClient } = require('@prisma/client');
 const pg = require('pg');
+
+const prisma = new PrismaClient();
 const pool = new pg.Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: {
@@ -18,4 +21,5 @@ const connectToDB = async () => {
 module.exports = {
   connectToDB,
   pool,
+  prisma,
 };
