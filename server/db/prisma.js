@@ -4,9 +4,9 @@ const pg = require('pg');
 const prisma = new PrismaClient();
 const pool = new pg.Pool({
   connectionString: process.env.DATABASE_URL,
-  ssl: {
-    rejectUnauthorized: false,
-  },
+  // ssl: {
+  //   rejectUnauthorized: false,
+  // },
 });
 
 const connectToDB = async () => {
